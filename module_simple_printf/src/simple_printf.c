@@ -1,7 +1,7 @@
 #include <print.h>
 #include <stdarg.h>
 
-int simple_printf(char * fmt, ...) 
+int _simple_printf(char * fmt, ...) 
 {
   char * marker;
   int intArg;
